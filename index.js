@@ -56,12 +56,14 @@ console.log(Yellow);
 
 const colors = ["Green", "Red", "Blue", "Yellow"];
 // Continue the code here 👇🏻
-for (let i = 0; i < 9; i++) {
-  for (let i = 0; i < 9; i++)
+for (let index = 0; index < 2; index++) {
+  for (let i = 0; i < 9; i++) {
     for (let index = 0; index < colors.length; index++) {
       cards.push(new Card(i, colors[index]));
     }
+  }
 }
+
 /**
  *
  * Don't touch this code
